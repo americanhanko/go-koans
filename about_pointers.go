@@ -30,7 +30,7 @@ func aboutPointers() {
 
 	{
 		realIncrement := func(i *int) {
-			(*i)++
+			*i++
 		}
 
 		b := 3
